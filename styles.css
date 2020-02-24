@@ -81,7 +81,7 @@ main .sort-area {
 
 main .sort-area h2 {
     margin: 15px 0 15px 10px;
-    color: #0F3154;
+    color: rgb(84, 15, 15);
 }
 
 main .sort-area .sort-list{
@@ -101,6 +101,21 @@ main .sort-area .sort-list li{
     border-bottom: 1px solid black;
     list-style: none;
     color: #A6C0F3; 
+    color: rgb(243, 166, 166);
+    
+}
+
+main .sort-area .sort-list li:hover{
+    transition: 0.3s ease;
+    background-color: rgb(241, 138, 138);
+    color: white;
+}
+
+
+main .sort-area .sort-list li i{
+    display: none;
+    float: right;
+    padding-right: 10px;
 }
     
 button {
