@@ -43,3 +43,30 @@ nav {
     grid-template-areas: 
     'ln ln mn mn rn rn';
 }
+
+.leftfoot {
+    grid-area: lf;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    font-size: 7vw;
+}
+
+.rightfoot {
+    grid-area: rf;
+    width: 50vw;
+    position: relative;
+    top: 3.3vh;
+    left: 10vw;
+    font-size: 7vw;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #0f3154;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    'lf rf';
+}
