@@ -38,7 +38,7 @@ body {
 nav {
     margin: 0;
     padding: 0;
-    background-color: #0f3154;
+    background-color: #ba0816;
     display: grid;
     grid-template-areas: 
     'ln ln mn mn rn rn';
@@ -64,9 +64,27 @@ nav {
 footer {
     margin: 0;
     padding: 0;
-    background-color: #0f3154;
+    background-color: #ba0816;
     color: white;
     display: grid;
     grid-template-areas: 
     'lf rf';
+}
+
+button {
+    border-radius: 20px;
+    background-color: #d9030f;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 8px;
+    box-shadow: 0 5px 5px 0  #999;
+}
+
+button:active {
+    background-color: #7e030a;
+    box-shadow: 0 5px 5px 0 #666666;
+    transform: translate(0, 2px);
 }
