@@ -48,20 +48,21 @@ nav {
     grid-area: lf;
     width: 50vw;
     position: relative;
-    left: 25vw;
+    left: 27vw;
     font-size: 7vw;
 }
 
 .rightfoot {
     grid-area: rf;
+    height: 10px;
     width: 30vw;
     position: relative;
     top: 3.3vh;
-    left: 10vw;
+    left: 1vw;
     font-size: 7vw;
 }
 
-footer {
+.footer {
     margin: 0;
     padding: 0;
     background-color: #ba0816;
@@ -277,5 +278,11 @@ button:active {
 }
 
 hr {
-    border: 1.5px solid #ba0816;;
+    border: 1.5px solid #ba0816;
+    margin: 0;
+    padding: 0;
+}
+
+.topjump {
+    text-decoration: none;
 }
