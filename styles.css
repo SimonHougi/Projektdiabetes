@@ -107,7 +107,7 @@ main .sort-area .sort-list li{
 }
 
 main .sort-area .sort-list li:hover{
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
     background-color: rgb(241, 138, 138);
     color: white;
 }
@@ -136,7 +136,9 @@ button:active {
     box-shadow: 0 5px 5px 0 #666666;
     transform: translate(0, 2px);
 }
-
+.kategori-area div {
+    display: none;
+}
 .img1 {
     width: 100vw;
     height: 220px;
