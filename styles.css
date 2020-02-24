@@ -102,6 +102,17 @@ main .sort-area .sort-list li{
     list-style: none;
     color: rgb(243, 166, 166);
 }
+
+main .sort-area .sort-list li:nth-child(2){
+    background-color: rgb(243, 226, 226);
+    color: rgb(243, 88, 88);
+    border-bottom: 1px solid #7e030a;
+}
+
+main .sort-area .sort-list li i{
+    float: right;
+    padding-right: 10px;
+}
     
 button {
     border-radius: 20px;
