@@ -6,6 +6,7 @@
     <title>Diabetes guide</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Font awesome icons-->
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="js/java.js" type="text/javascript" defer></script>
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
         </div>
 
         <div class="tag-area">
-            <button>Brød</button>
+            <button onclick="sort1()" id="testknap">Brød</button>
             <button>Drikke</button>
             <button>Mælkeprodukter</button>
             <button>Kød</button>
@@ -42,7 +43,7 @@
         </div>
 
         <div class="kategori-area">
-            <div class="img1"></div>
+            <div id="testimg" class="img1" style="display: block;"></div>
             <hr>
             <div class="img2"></div>
             <hr>
