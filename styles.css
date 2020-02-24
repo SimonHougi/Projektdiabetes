@@ -101,15 +101,18 @@ main .sort-area .sort-list li{
     border-bottom: 1px solid black;
     list-style: none;
     color: rgb(243, 166, 166);
+    
 }
 
-main .sort-area .sort-list li:nth-child(2){
-    background-color: rgb(243, 226, 226);
-    color: rgb(243, 88, 88);
-    border-bottom: 1px solid #7e030a;
+main .sort-area .sort-list li:hover{
+    transition: 0.3s ease;
+    background-color: rgb(241, 138, 138);
+    color: white;
 }
+
 
 main .sort-area .sort-list li i{
+    display: none;
     float: right;
     padding-right: 10px;
 }
