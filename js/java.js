@@ -1,42 +1,25 @@
 
-
-
 var brød = document.getElementById('rugbrødKnækbrød-div');
-
 var boller = document.getElementById('fuldkornsBoller-div');
-
 var morgenmad = document.getElementById('morgenmadsprodukter-div');
-
 var mælk = document.getElementById('mælk-div');
-
 var syrnede = document.getElementById('syrnedeMælkeprodukter-div');
-
 var ost = document.getElementById('ost-div');
-
 var kød = document.getElementById('kødFjerkræPlantebaseret-div');
-
 var pålæg = document.getElementById('pålæg-div');
-
 var fisk = document.getElementById('fiskSkaldyr-div');
-
 var mærkerne = document.getElementById('gåEfterMærkerne-div');
-
 var grønt = document.getElementById('grøntsagerFrugt-div');
-
 var kartofler = document.getElementById('kartofler-div');
-
 var påfarten = document.getElementById('madPåFarten');
-
 var færdigeretter = document.getElementById('færdigRetter-div');
-
 var sovs = document.getElementById('drissingSovs-div');
-
 var kakaodrikke = document.getElementById('kakaoMælkedrikke-div');
-
 var frugtsaft = document.getElementById('frugtsaft-div');
-
 var sodavand = document.getElementById('sodavand-div');
 
+
+mærkerne.style.display = "block"; //starter med at være tændt.
 
 function sortBrød() {
     // ændre farven på knappen
@@ -67,8 +50,6 @@ function sortBrød() {
     ost.style.display = "none";
     morgenmad.style.display = "none";
 };
-
-
 
 function sortDrikke() {
     if (mælk.style.display === "none" || syrnede.style.display === "none" || kakaodrikke.style.display === "none" || frugtsaft.style.display === "none" || sodavand.style.display === "none") {
@@ -104,7 +85,6 @@ function sortDrikke() {
     morgenmad.style.display = "none";
 };
 
-
 function sortMælk() {
     if (morgenmad.style.display === "none" || syrnede.style.display === "none" || kakaodrikke.style.display === "none" || ost.style.display === "none" || mælk.style.display === "none") {
         morgenmad.style.display = "block";
@@ -138,7 +118,6 @@ function sortMælk() {
     //ost.style.display = "none";
     //morgenmad.style.display = "none";
 };
-
 
 function sortKød() {
     if (kød.style.display === "none" || pålæg.style.display === "none" || fisk.style.display === "none") {
@@ -297,10 +276,6 @@ function sortDiverse() {
     ost.style.display = "none";
     morgenmad.style.display = "none";
 };
-
-
-
-
 
 // påfarten.style["display"] = "block"; 
 // påfarten.innerHTML = "";
