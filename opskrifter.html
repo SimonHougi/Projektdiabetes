@@ -4,71 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diabetes guide</title>
+    <title>Opskrifter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Font awesome icons-->
-    <link rel="stylesheet" href="opskrifterstyle.css">
+    <link rel="stylesheet" href="opskrifterstyle.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <i class="fa fa-bars"></i>
-            <h1>Indkøbsguide</h1>
-            <img src="images/logo.jpg" alt="Diabetes foreningens logo">
+        <nav id="top">
+            <i class="fa fa-bars leftnav"></i>
+            <h1 class="midnav">Opskrifter</h1>
+            <img src="images/logo.jpg" alt="Diabetes foreningens logo" class="rightnav">
         </nav>
     </header>
     <main>
-        <div class="opskrifter">
-            <div><a href="#"><img src="images/grønkålssalat.jfif" alt="Grønkålssalat med rugkerner"></a></div>
-            <div>
-                <h1>Grønkålssalat med rugkerner</h1>
-                <p>Kulhydrat pr. 100 g 20 g</p>
+        <div class="opskrifter grid">
+            <div class="left1">
+                <div>
+                    <a href="#"><img src="images/grønkålssalat.jfif" alt="Grønkålssalat med rugkerner"></a>
+                </div>
+                <div>
+                    <h2>Grønkålssalat med rugkerner</h2>
+                    <p>Kulhydrat pr. 100 g 20 g</p>
+                </div>
             </div>
 
-            <div><a href="#"><img src="images/tomatsuppe.jfif" alt="tomatsuppe"></a></div>
-            <div>
-                <h1>Tomatsuppe</h1>
-                <p>Kulhydrat pr. 100 g 3 g</p>
+            <div class="right1">
+                <div><a href="#"><img src="images/tomatsuppe.jfif" alt="tomatsuppe"></a></div>
+                <div>
+                    <h2>Tomatsuppe</h2>
+                    <p>Kulhydrat pr. 100 g 3 g</p>
+                </div>
             </div>
 
-            <div><a href="#"><img src="images/kyllingefrikadeller.jfif" alt="kyllingefrikadeller"></a></div>
-            <div>
-                <h1>Kyllingefrikadeller med kokos</h1>
-                <p>Kulhydrat pr. 100 g 7 g</p>
+            <div class="left2">
+                <div><a href="#"><img src="images/kyllingefrikadeller.jfif" alt="kyllingefrikadeller"></a></div>
+                <div>
+                    <h2>Kyllingefrikadeller med kokos</h2>
+                    <p>Kulhydrat pr. 100 g 7 g</p>
+                </div>
             </div>
 
-            <div><a href="#"><img src="images/rugboller.jfif" alt="rugboller"></a></div>
-            <div>
-                <h1>Rugboller med chokolade</h1>
-                <p>Kulhydrat pr. 100 g 41 g</p>
-            </div>
-            <div><a href="#"><img src="images/afrikanskkødret.jfif" alt="afrikansk kødret"></a></div>
-            <div>
-                <h1>Afrikansk Kødret</h1>
-                <p>Kulhydrat pr. 100 g 4 g</p>
+            <div class="right2">
+                <div><a href="#"><img src="images/rugboller.jfif" alt="rugboller"></a></div>
+                <div>
+                    <h2>Rugboller med chokolade</h2>
+                    <p>Kulhydrat pr. 100 g 41 g</p>
+                </div>
             </div>
 
-            <div><a href="#"><img src="images/benløsefugle.jfif" alt="benløse fugle"></a></div>
-            <div>
-                <h1>Benløse fugle og jordskokker</h1>
-                <p>Kulhydrat pr. 100 g 5 g</p>
+            <div class="left3">
+                <div><a href="#"><img src="images/afrikanskkødret.jfif" alt="afrikansk kødret"></a></div>
+                <div>
+                    <h2>Afrikansk Kødret</h2>
+                    <p>Kulhydrat pr. 100 g 4 g</p>
+                </div>
             </div>
 
-            <div><a href="#"><img src="images/tunsalat.jfif" alt="tunsalat"></a></div>
-            <div>
-                <h1>Tunsalat</h1>
-                <p>Kulhydrat pr. 100 g 4 g</p>
+            <div class="right3">
+                <div><a href="#"><img src="images/benløsefugle.jfif" alt="benløse fugle"></a></div>
+                <div>
+                    <h2>Benløse fugle og jordskokker</h2>
+                    <p>Kulhydrat pr. 100 g 5 g</p>
+                </div>
             </div>
-            <div><a href="#"><img src="images/varmpastasalat.jfif" alt="varm pastasalat"></a></div>
-            <div>
-                <h1>Varm pastasalat med kylling</h1>
-                <p>Kulhydrat pr. 100 g 10 g</p>
+
+            <div class="left4">
+                <div><a href="#"><img src="images/tunsalat.jfif" alt="tunsalat"></a></div>
+                <div>
+                    <h2>Tunsalat</h2>
+                    <p>Kulhydrat pr. 100 g 4 g</p>
+                </div>
+            </div>
+
+            <div class="right4">
+                <div><a href="#"><img src="images/varmpastasalat.jfif" alt="varm pastasalat"></a></div>
+                <div>
+                    <h2>Varm pastasalat med kylling</h2>
+                    <p>Kulhydrat pr. 100 g 10 g</p>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-
+        <a href="#top" class="topjump">
+            <div class="footer">
+                <h3 class="leftfoot">Til toppen</h3>
+                <i class="fa fa-arrow-up rightfoot"></i>
+            </div>
+        </a>
     </footer>
 </body>
 

@@ -1,10 +1,6 @@
 @charset utf-8
-
-div.opskrifter {
-
-  }
-  
-  .opskrifter {width: 60%}
+ 
+.opskrifter {width: 60%}
   
 .opskrifter div a img {
     height: 100%;
@@ -15,6 +11,79 @@ div.opskrifter {
     text-align: left;
     padding: 0;
     width: 100%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  h2 {
+    font-size: 20px;
+    height: 5vh;
+    padding-left: 1vw;
+  }
+
+  p {
+    padding-left: 1vw;
+  }
+
+  .left1 {
+    grid-area: l1;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .left2 {
+    grid-area: l2;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .left3 {
+    grid-area: l3;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .left4 {
+    grid-area: l4;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+  
+  .right1 {
+    grid-area: r1;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .right2 {
+    grid-area: r2;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .right3 {
+    grid-area: r3;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .right4 {
+    grid-area: r4;
+    width: 45vw;
+    margin: 2vw;
+    border: 1.5px solid #d9030f;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas: 
+    'l1 r1'
+    'l2 r2'
+    'l3 r3'
+    'l4 r4';
   }
