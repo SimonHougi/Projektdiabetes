@@ -79,6 +79,14 @@ nav a.icon {
     position: absolute;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+#cross {
+    display: none;
+}
+
 #floatright {
     float: right;
     position: relative;
