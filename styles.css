@@ -3,11 +3,13 @@
 html {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -85,6 +87,85 @@ nav {
     display: grid;
     grid-template-areas: 
     'lf rf';
+}
+
+main .table-container .table-head {
+    height: 50px;
+    text-align: center;
+} 
+
+main .table-container .table-head h2{
+    font-size: 1.2rem;
+      font-weight: bold;
+    padding: 0 15px 15px 15px;
+} 
+
+main .table-container .table-area {
+    
+  }
+  main .table-container .table-area table tbody{
+    display: block;
+  }
+
+main .table-container .table-area table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    
+  }
+
+  main .table-container .table-area table td, th {
+    border-left: 1px solid #ffb5b5;
+    border-bottom: 1px solid #ffb5b5;
+    text-align: left;
+    padding: 5px;
+  }
+
+  main .table-container .table-area table tr:nth-child(even) {
+    background-color: #fffbfb;
+  }
+
+
+  main .info-container {
+    padding-top: 20px;
+  }
+
+  main .info-container .info-head{
+      width: 100%;
+      text-align: center;
+      height: 70px;
+}
+
+main .info-container .info-head h2{
+      font-size: 1.2rem;
+      font-weight: bold;
+}
+
+main .info-container .info-section{
+      padding: 10px 0;
+      line-height: 1.5;
+}
+
+main .info-container .info-section .info-text{
+      padding: 0 10px;
+}
+main .info-container .info-section .info-text p{
+    font-size: 1rem;
+}
+
+
+main .info-container .info-section .info-list{
+      padding: 0;
+}
+
+  
+
+main {
+    
+}
+
+main .sort-area {
+
 }
 
 main .sort-area h2 {
