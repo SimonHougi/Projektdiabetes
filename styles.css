@@ -32,17 +32,20 @@ p {
 .midnav {
     grid-area: mn;
     text-align: center;
-    position: relative;
-    left: 3vw;
     color: white;
 }
 
 .rightnav {
     grid-area: rn;
-    width: 25vw;
+    width: 10vw;
     position: relative;
-    top: 2.7vh;
-    left: 8vw;
+    top: 1vh;
+}
+
+.image {
+    width: 90px;
+    position: relative;
+    top: 2vh;
 }
 
 nav {
@@ -53,6 +56,8 @@ nav {
     grid-template-areas: 
     'ln ln mn mn rn rn';
 }
+
+
 
 .leftfoot {
     grid-area: lf;
@@ -331,3 +336,4 @@ hr {
     'coldcuts fish'
     'vegetables diverse';
 }
+
