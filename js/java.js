@@ -1,6 +1,6 @@
 
-var brød = document.getElementById('rugbrødKnækbrød-div');
-var boller = document.getElementById('fuldkornsBoller-div');
+//var brød = document.getElementById('rugbrødKnækbrød-div');
+//var boller = document.getElementById('fuldkornsBoller-div');
 var morgenmad = document.getElementById('morgenmadsprodukter-div');
 var mælk = document.getElementById('mælk-div');
 var syrnede = document.getElementById('syrnedeMælkeprodukter-div');
@@ -21,192 +21,97 @@ var sodavand = document.getElementById('sodavand-div');
 
 mærkerne.style.display = "block"; //starter med at være tændt.
 
+//var class = document.getElementsByClassName('brød');
+         
+   
+  
+
 function sortBrød() {
     // ændre farven på knappen
+    //document.getElementsByClassName('brød')[0].style.display = "block";
 
-    if (brød.style.display === "none" || boller.style.display === "none") {
-        brød.style.display = "block";
-        boller.style.display = "block";
-    } else {
-        brød.style.display = "none";
-        boller.style.display = "none";
+    var brødArray = document.getElementsByClassName('brød');
+    document.getElementById('brødCheck');
+    var i;
+    for (i = 0; i < brødArray.length; i++) {
+      brødArray[i].style.display = brødCheck.checked ? "block" : "none";;
     }
+    
+    //if (brød.style.display === "none" || boller.style.display === "none") {
+      //  brød.style.display = "block";
+        //boller.style.display = "block";
+    //} else {
+      //  brød.style.display = "none";
+        //boller.style.display = "none";
+    //}
     //brød.style.display = "none";
     //boller.style.display = "none";
-    kød.style.display = "none";
-    pålæg.style.display = "none";
-    fisk.style.display = "none";
-    mælk.style.display = "none";
-    syrnede.style.display = "none";
-    kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
-};
-
-function sortDrikke() {
-    if (mælk.style.display === "none" || syrnede.style.display === "none" || kakaodrikke.style.display === "none" || frugtsaft.style.display === "none" || sodavand.style.display === "none") {
-        mælk.style.display = "block";
-        syrnede.style.display = "block";
-        kakaodrikke.style.display = "block";
-        frugtsaft.style.display = "block";
-        sodavand.style.display = "block";
-    } else {
-        mælk.style.display = "none";
-        syrnede.style.display = "none";
-        kakaodrikke.style.display = "none";
-        frugtsaft.style.display = "none";
-        sodavand.style.display = "none";
-    }
-    brød.style.display = "none";
-    boller.style.display = "none";
-    kød.style.display = "none";
-    pålæg.style.display = "none";
-    fisk.style.display = "none";
-    // mælk.style.display = "none";
-    //syrnede.style.display = "none";
-    //kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    //frugtsaft.style.display = "none";
-    //sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
-};
-
-function sortMælk() {
-    if (morgenmad.style.display === "none" || syrnede.style.display === "none" || kakaodrikke.style.display === "none" || ost.style.display === "none" || mælk.style.display === "none") {
-        morgenmad.style.display = "block";
-        syrnede.style.display = "block";
-        kakaodrikke.style.display = "block";
-        ost.style.display = "block";
-        mælk.style.display = "block";
-    } else {
-        morgenmad.style.display = "none";
-        syrnede.style.display = "none";
-        kakaodrikke.style.display = "none";
-        ost.style.display = "none";
-        mælk.style.display = "none";
-    }
-    brød.style.display = "none";
-    boller.style.display = "none";
-    kød.style.display = "none";
-    pålæg.style.display = "none";
-    fisk.style.display = "none";
+   //kød.style.display = "none";
+    //pålæg.style.display = "none";
+    //fisk.style.display = "none";
     //mælk.style.display = "none";
     //syrnede.style.display = "none";
     //kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
+    //mærkerne.style.display = "none";
+    //frugtsaft.style.display = "none";
+    //sodavand.style.display = "none";
+    //færdigeretter.style.display = "none";
+    //sovs.style.display = "none";
+    //påfarten.style.display = "none";
+    //grønt.style.display = "none";
+    //kartofler.style.display = "none";
     //ost.style.display = "none";
     //morgenmad.style.display = "none";
 };
 
-function sortKød() {
-    if (kød.style.display === "none" || pålæg.style.display === "none" || fisk.style.display === "none") {
-        kød.style.display = "block";
-        pålæg.style.display = "block";
-        fisk.style.display = "block";
-    } else {
-        kød.style.display = "none";
-        pålæg.style.display = "none";
-        fisk.style.display = "none";
+function sortDrikke() {
+
+    var drikkeArray = document.getElementsByClassName('drikke');
+    document.getElementById('drikkeCheck');
+    var i;
+    for (i = 0; i < drikkeArray.length; i++) {
+      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
     }
 
-    brød.style.display = "none";
-    boller.style.display = "none";
-    //kød.style.display = "none";
-    //pålæg.style.display = "none";
-    //fisk.style.display = "none";
-    mælk.style.display = "none";
-    syrnede.style.display = "none";
-    kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
+};
+
+function sortMælk() {
+
+    var mælkArray = document.getElementsByClassName('mælk');
+    document.getElementById('mælkCheck');
+    var i;
+    for (i = 0; i < mælkArray.length; i++) {
+        mælkArray[i].style.display = mælkCheck.checked ? "block" : "none";;
+    }
+
+};
+
+function sortKød() {
+    var kødArray = document.getElementsByClassName('kød');
+    document.getElementById('kødCheck');
+    var i;
+    for (i = 0; i < kødArray.length; i++) {
+        kødArray[i].style.display = kødCheck.checked ? "block" : "none";;
+    }
 };
 
 function sortFisk() {
-    if (fisk.style.display === "none") {
-        fisk.style.display = "block";
-
-    } else {
-        fisk.style.display = "none";
-
+    var drikkeArray = document.getElementsByClassName('drikke');
+    document.getElementById('drikkeCheck');
+    var i;
+    for (i = 0; i < drikkeArray.length; i++) {
+      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
     }
-
-    brød.style.display = "none";
-    boller.style.display = "none";
-    kød.style.display = "none";
-    pålæg.style.display = "none";
-    //fisk.style.display = "none";
-    mælk.style.display = "none";
-    syrnede.style.display = "none";
-    kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
 };
 
 function sortPålæg() {
 
-    if (pålæg.style.display === "none") {
-        pålæg.style.display = "block";
-
-    } else {
-        pålæg.style.display = "none";
-
+    var drikkeArray = document.getElementsByClassName('drikke');
+    document.getElementById('drikkeCheck');
+    var i;
+    for (i = 0; i < drikkeArray.length; i++) {
+      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
     }
-
-    brød.style.display = "none";
-    boller.style.display = "none";
-    kød.style.display = "none";
-    //pålæg.style.display = "none";
-    fisk.style.display = "none";
-    mælk.style.display = "none";
-    syrnede.style.display = "none";
-    kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
 };
 
 function sortDesserter() {
@@ -215,66 +120,22 @@ function sortDesserter() {
 
 function sortGrønt() {
 
-    if (grønt.style.display === "none" || kartofler.style.display === "none") {
-        grønt.style.display = "block";
-        kartofler.style.display = "block";
-    } else {
-        grønt.style.display = "none";
-        kartofler.style.display = "none";
+    var drikkeArray = document.getElementsByClassName('drikke');
+    document.getElementById('drikkeCheck');
+    var i;
+    for (i = 0; i < drikkeArray.length; i++) {
+      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
     }
-
-
-    brød.style.display = "none";
-    boller.style.display = "none";
-    kød.style.display = "none";
-    pålæg.style.display = "none";
-    fisk.style.display = "none";
-    mælk.style.display = "none";
-    syrnede.style.display = "none";
-    kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    færdigeretter.style.display = "none";
-    sovs.style.display = "none";
-    påfarten.style.display = "none";
-    //grønt.style.display = "none";
-    //kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
 };
 
 function sortDiverse() {
 
-    if (færdigeretter.style.display === "none" || sovs.style.display === "none" || påfarten.style.display === "none") {
-        færdigeretter.style.display = "block";
-        sovs.style.display = "block";
-        påfarten.style.display = "block";
-    } else {
-        færdigeretter.style.display = "none";
-        sovs.style.display = "none";
-        påfarten.style.display = "none";
+    var drikkeArray = document.getElementsByClassName('drikke');
+    document.getElementById('drikkeCheck');
+    var i;
+    for (i = 0; i < drikkeArray.length; i++) {
+      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
     }
-
-
-    brød.style.display = "none";
-    boller.style.display = "none";
-    kød.style.display = "none";
-    pålæg.style.display = "none";
-    fisk.style.display = "none";
-    mælk.style.display = "none";
-    syrnede.style.display = "none";
-    kakaodrikke.style.display = "none";
-    mærkerne.style.display = "none";
-    frugtsaft.style.display = "none";
-    sodavand.style.display = "none";
-    //færdigeretter.style.display = "none";
-    //sovs.style.display = "none";
-    //påfarten.style.display = "none";
-    grønt.style.display = "none";
-    kartofler.style.display = "none";
-    ost.style.display = "none";
-    morgenmad.style.display = "none";
 };
 
 // påfarten.style["display"] = "block"; 
