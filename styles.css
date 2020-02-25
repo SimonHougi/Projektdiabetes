@@ -72,6 +72,34 @@ nav {
     'lf rf';
 }
 
+main .table-container .table-head {
+    height: 50px;
+} 
+
+main .table-container .table-head h2{
+    font-size: 1.5rem;
+    padding: 0 15px 15px 15px;
+} 
+
+main .table-container .table-area table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  main .table-container .table-area table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  main .table-container .table-area table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+
+  
+
 main {
     
 }
