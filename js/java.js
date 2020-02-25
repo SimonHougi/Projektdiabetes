@@ -96,21 +96,21 @@ function sortKød() {
 };
 
 function sortFisk() {
-    var drikkeArray = document.getElementsByClassName('drikke');
-    document.getElementById('drikkeCheck');
+    var fiskArray = document.getElementsByClassName('fisk');
+    document.getElementById('fiskCheck');
     var i;
-    for (i = 0; i < drikkeArray.length; i++) {
-      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
+    for (i = 0; i < fiskArray.length; i++) {
+        fiskArray[i].style.display = fiskCheck.checked ? "block" : "none";;
     }
 };
 
 function sortPålæg() {
 
-    var drikkeArray = document.getElementsByClassName('drikke');
-    document.getElementById('drikkeCheck');
+    var pålægArray = document.getElementsByClassName('pålæg');
+    document.getElementById('pålægCheck');
     var i;
-    for (i = 0; i < drikkeArray.length; i++) {
-      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
+    for (i = 0; i < pålægArray.length; i++) {
+        pålægArray[i].style.display = pålægCheck.checked ? "block" : "none";;
     }
 };
 
@@ -120,11 +120,11 @@ function sortDesserter() {
 
 function sortGrønt() {
 
-    var drikkeArray = document.getElementsByClassName('drikke');
-    document.getElementById('drikkeCheck');
+    var grøntArray = document.getElementsByClassName('grønt');
+    document.getElementById('grøntCheck');
     var i;
-    for (i = 0; i < drikkeArray.length; i++) {
-      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
+    for (i = 0; i < grøntArray.length; i++) {
+        grøntArray[i].style.display = grøntCheck.checked ? "block" : "none";;
     }
 };
 
