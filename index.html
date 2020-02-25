@@ -34,127 +34,121 @@
 
         </div>
 
-        <div class="tag-area">
-            <input type="checkbox" id="brødCheck" onclick="sortBrød()">
-            Brød
-            </input>
-            <input type="checkbox" id="drikkeCheck" onclick="sortDrikke()">
-            Drikke
-            </input>
-            <input type="checkbox" id="kødCheck" onclick="sortKød()">
-            Kød
-            </input>
-            <input type="checkbox" id="mælkCheck" onclick="sortMælk()">
-            Mælkeprodukter
-            </input>
-            <input type="checkbox" id="pålægCheck" onclick="sortPålæg()">
-            Pålæg
-            </input>
-            <input type="checkbox" id="fiskCheck" onclick="sortFisk()">
-            Fisk og skaldyr
-            </input>
-            <input type="checkbox" id="desserterCheck" onclick="sortDesserter()">
-            Desserter
-            </input>
-            <input type="checkbox" id="grøntCheck" onclick="sortGrønt()">
-            Grøntsager
-            </input>
-            <input type="checkbox" id="diverseCheck" onclick="sortDiverse()">
-            Diverse
-            </input>
+        <div class="gridcontainer">
+            <div class="button breadgrid" onclick="toggleList('brød')">
+                <p>Brød</p>
+            </div>
+            <div class="button drinkgrid" onclick="toggleList('drikke')">
+                <p>Drikke</p>
+            </div>
+            <div class="button meatgrid" onclick="toggleList('kød')">
+                <p>Kød</p>
+            </div>
+            <div class="button milkgrid" onclick="toggleList('mælk')">
+                <p>Mælk</p>
+            </div>
+            <div class="button coldcutsgrid" onclick="toggleList('pålæg')">
+                <p>Pålæg</p>
+            </div>
+            <div class="button fishgrid" onclick="toggleList('fisk')">
+                <p id="fishfont">Fisk og skaldyr</p>
+            </div>
+            <div class="button vegetablesgrid" onclick="toggleList('grønt')">
+                <p>Grøntsager</p>
+            </div>
+            <div class="button diversegrid" onclick="toggleList('diverse')">
+                <p>Diverse</p>
+            </div>
         </div>
-        <!-- 
-rugbrødKnækbrød-div
-fuldkornsBoller-div
-morgenmadsprodukter-div
-mælk-div
-syrnedeMælkeprodukter-div
-ost-div
-kødFjerkræPlantebaseret-div
-pålæg-div
-fiskSkaldyr-div
-gåEfterMærkerne-div
-grøntsagerFrugt-div
-kartofler-div
-madPåFarten
-færdigRetter-div
-drissingSovs-div
-kakaoMælkedrikke-div
-frugtsaft-div
-sodavand-div
 
-
--->
         <div class="kategori-area">
-            <div class="img1 brød" style="display: none;">
+            <div class="img1 brød invisible">
+                <!--Rugbrød og knækbrød-->
                 <hr>
             </div>
 
-            <div class="img2 brød" style="display: none;">
+            <div class="img2 brød invisible">
+                <!--Fuldkornsbrød og boller-->
                 <hr>
             </div>
 
-            <div id="morgenmadsprodukter-div" class="img3 mælk">
+            <div class="img3 diverse invisible">
+                <!--Morgenmadsprodukter-->
                 <hr>
             </div>
 
-            <div id="mælk" class="img4 drikke mælk">
+            <div class="img4 drikke mælk invisible">
+                <!--Mælk-->
                 <hr>
             </div>
 
-            <div id="syrnedeMælkeprodukter-div" class="img5 mælk">
+            <div class="img5 mælk invisible">
+                <!--Syrnede mælkeprodukter-->
                 <hr>
             </div>
 
-            <div id="ost-div" class="img6 mælk">
+            <div class="img6 mælk invisible">
+                <!--Ost-->
                 <hr>
             </div>
 
-            <div id="kødFjerkræPlantebaseret-div" class="img7 kød">
+            <div class="img7 kød invisible">
+                <!--Kød, fjerkræ og plantebaserede produkter-->
                 <hr>
             </div>
 
-            <div id="pålæg-div" class="img8 kød pålæg">
+            <div class="img8 kød pålæg invisible">
+                <!--Pålæg-->
                 <hr>
             </div>
 
-            <div id="fiskSkaldyr-div" class="img9 kød fisk">
+            <div class="img9 kød fisk invisible">
+                <!--Fisk-->
                 <hr>
             </div>
 
-            <div id="gåEfterMærkerne-div" class="img10">
+            <div class="img10">
+                <!--GåEfterMærkerne-->
                 <hr>
             </div>
 
-            <div id="grøntsagerFrugt-div" class="img11 grønt">
+            <div class="img11 grønt invisible">
+                <!--Grøntsager-->
                 <hr>
             </div>
 
-            <div id="kartofler-div" class="img12 grønt">
+            <div class="img12 grønt invisible">
+                <!--Kartofler-->
                 <hr>
             </div>
 
-            <div id="madPåFarten" class="img13 diverse">
+            <div class="img13 diverse invisible">
+                <!--Mad på farten-->
                 <hr>
             </div>
 
-            <div id="færdigRetter-div" class="img14">
+            <div class="img14 diverse invisible">
+                <!--Færdigretter-->
                 <hr>
             </div>
 
-            <div id="drissingSovs-div" class="img15 diverse">
+            <div class="img15 diverse invisible">
+                <!--Dressing og sovs-->
                 <hr>
             </div>
 
-            <div id="kakaoMælkedrikke-div" class="img16 drikke mælk">
+            <div class="img16 drikke mælk invisible">
+                <!--Kakaomælk osv.-->
                 <hr>
             </div>
 
-            <div id="frugtsaft-div" class="img17 drikke">
+            <div class="img17 drikke invisible">
+                <!--Frugtsaft-->
                 <hr>
             </div>
 
-            <div id="sodavand-div" class="img18 drikke"></div>
+            <div class="img18 drikke invisible"></div>
+            <!--Sodavand og læskedrik-->
         </div>
     </main>
     <footer>
