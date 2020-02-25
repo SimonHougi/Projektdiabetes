@@ -88,13 +88,14 @@ main .table-container .table-area table {
   }
 
   main .table-container .table-area table td, th {
-    border: 1px solid #dddddd;
+    border-left: 1px solid #ffb5b5;
+    border-bottom: 1px solid #ffb5b5;
     text-align: left;
     padding: 8px;
   }
 
   main .table-container .table-area table tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #fffbfb;
   }
   
 
