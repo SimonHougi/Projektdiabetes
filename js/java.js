@@ -130,11 +130,11 @@ function sortGrønt() {
 
 function sortDiverse() {
 
-    var drikkeArray = document.getElementsByClassName('drikke');
-    document.getElementById('drikkeCheck');
+    var diverseArray = document.getElementsByClassName('diverse');
+    document.getElementById('diverseCheck');
     var i;
-    for (i = 0; i < drikkeArray.length; i++) {
-      drikkeArray[i].style.display = drikkeCheck.checked ? "block" : "none";;
+    for (i = 0; i < diverseArray.length; i++) {
+        diverseArray[i].style.display = diverseCheck.checked ? "block" : "none";;
     }
 };
 
