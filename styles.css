@@ -1,4 +1,4 @@
-@charset utf-8
+@charset "UTF-8";
 
 html {
     margin: 0;
@@ -8,6 +8,16 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-size: 35px;
+    position: relative;
+    bottom: 25px;
+}
+
+#fishfont {
+    font-size: 25px;
 }
 
 .leftnav {
@@ -72,21 +82,9 @@ nav {
     'lf rf';
 }
 
-main {
-    
-}
-
-main .sort-area {
-
-}
-
 main .sort-area h2 {
     margin: 15px 0 15px 10px;
     color: rgb(84, 15, 15);
-}
-
-main .sort-area .sort-list{
-
 }
 
 main .sort-area .sort-list ul{
@@ -119,26 +117,26 @@ main .sort-area .sort-list li i{
     padding-right: 10px;
 }
     
-button {
+.button {
     border-radius: 20px;
     background-color: #d9030f;
     border: none;
     color: white;
-    padding: 20px 30px;
+    padding: 5px 10px;
     text-align: center;
     font-size: 20px;
     margin: 8px;
     box-shadow: 0 5px 5px 0  #999;
+    width: 150px;
+    height: 60px;
 }
 
-button:active {
+.button:active {
     background-color: #7e030a;
     box-shadow: 0 5px 5px 0 #666666;
     transform: translate(0, 2px);
 }
-.kategori-area div {
-    display: none;
-}
+
 .img1 {
     width: 100vw;
     height: 220px;
@@ -289,3 +287,47 @@ hr {
     text-decoration: none;
 }
 
+.invisible {
+    display: none;
+}
+
+.breadgrid {
+    grid-area: bread;
+}
+
+.drinkgrid {
+    grid-area: drink;
+}
+
+.meatgrid {
+    grid-area: meat;
+}
+
+.milkgrid {
+    grid-area: milk;
+}
+
+.coldcutsgrid {
+    grid-area: coldcuts;
+}
+
+.fishgrid {
+    grid-area: fish;
+}
+
+.vegetablesgrid {
+    grid-area: vegetables;
+}
+
+.diversegrid {
+    grid-area: diverse;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-areas: 
+    'bread drink'
+    'meat milk'
+    'coldcuts fish'
+    'vegetables diverse';
+}
