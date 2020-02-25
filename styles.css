@@ -10,10 +10,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sorter {
+    font-size: 40px;
+}
+
 p {
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
 }
 
 #fishfont {
@@ -64,7 +68,7 @@ nav {
 #navLinks a {
     color: #ba0816;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     display: block;
     margin-bottom: 30px;

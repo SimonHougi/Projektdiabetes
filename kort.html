@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diabetes guide</title>
+    <title>Indkøbskort</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Font awesome icons-->
     <link rel="stylesheet" href="styles.css" type="text/css">
@@ -14,11 +14,18 @@
 <body>
     <header>
         <nav id="top">
-            <i class="fa fa-bars leftnav" id="burger"></i>
-            <i class="fa fa-times" id="cross"></i>
-            <h1 class="midnav">Indkøbsguide</h1>
-            <img src="images/logo.jpg" alt="Diabetes foreningens logo" class="rightnav">
+            <a href="javascript:void(0);" class="icon leftnav" onclick="myFunction()">
+                <i class="fa fa-bars" id="burger"></i>
+                <i class="fa fa-times" id="cross"></i>
+            </a>
+            <h1 class="midnav">Indkøbskort</h1>
+            <a href="https://diabetes.dk/" class="rightnav">
+                <img src="images/logo.jpg" alt="Diabetes foreningens logo" class="image"></a>
         </nav>
+        <div id="navLinks">
+            <a href="index.html" id="floatleft">Indkøbsguide</a>
+            <a href="opskrifter.html" id="floatright">Opskrifter</a>
+        </div>
     </header>
     <main>
         <div class="table-container">
