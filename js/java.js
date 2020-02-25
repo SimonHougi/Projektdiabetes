@@ -1,13 +1,13 @@
 function toggleList(kategori) {
-  var kategoriArray = document.getElementsByClassName(kategori);
-  for (var i = 0; i < kategoriArray.length; i++)
+  let kategoriArray = document.getElementsByClassName(kategori);
+  for (let i = 0; i < kategoriArray.length; i++)
     {
       kategoriArray[i].classList.toggle("invisible");
     }
 }
 
 function myFunction() {
-  var x = document.getElementById("myLinks");
+  let x = document.getElementById("navLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
