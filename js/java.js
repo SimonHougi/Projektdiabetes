@@ -1,29 +1,5 @@
 
-//var brød = document.getElementById('rugbrødKnækbrød-div');
-//var boller = document.getElementById('fuldkornsBoller-div');
-var morgenmad = document.getElementById('morgenmadsprodukter-div');
-var mælk = document.getElementById('mælk-div');
-var syrnede = document.getElementById('syrnedeMælkeprodukter-div');
-var ost = document.getElementById('ost-div');
-var kød = document.getElementById('kødFjerkræPlantebaseret-div');
-var pålæg = document.getElementById('pålæg-div');
-var fisk = document.getElementById('fiskSkaldyr-div');
-var mærkerne = document.getElementById('gåEfterMærkerne-div');
-var grønt = document.getElementById('grøntsagerFrugt-div');
-var kartofler = document.getElementById('kartofler-div');
-var påfarten = document.getElementById('madPåFarten');
-var færdigeretter = document.getElementById('færdigRetter-div');
-var sovs = document.getElementById('drissingSovs-div');
-var kakaodrikke = document.getElementById('kakaoMælkedrikke-div');
-var frugtsaft = document.getElementById('frugtsaft-div');
-var sodavand = document.getElementById('sodavand-div');
-
-
 mærkerne.style.display = "block"; //starter med at være tændt.
-
-//var class = document.getElementsByClassName('brød');
-         
-   
   
 
 function sortBrød() {
@@ -138,9 +114,6 @@ function sortDiverse() {
     }
 };
 
-// påfarten.style["display"] = "block"; 
-// påfarten.innerHTML = "";
-
 // rugbrødKnækbrød-div
 // fuldkornsBoller-div
 // morgenmadsprodukter-div
@@ -159,5 +132,3 @@ function sortDiverse() {
 // kakaoMælkedrikke-div
 // frugtsaft-div
 // sodavand-div
-
-// document.getElementById('testimg'); style.display = 'block';
