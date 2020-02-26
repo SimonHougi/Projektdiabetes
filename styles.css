@@ -12,7 +12,7 @@ body {
 }
 
 .sorter {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 p {
@@ -69,7 +69,7 @@ nav {
 #navLinks a {
     color: #ba0816;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     display: block;
     margin-bottom: 30px;
@@ -127,6 +127,10 @@ nav a {
     color: white;
     display: grid;
     grid-template-areas: 'lf rf';
+}
+
+main .table-container {
+    display: inline-block;
 }
 
 main .table-container .table-head {
