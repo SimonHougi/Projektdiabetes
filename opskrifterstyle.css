@@ -87,3 +87,33 @@
     'l3 r3'
     'l4 r4';
   }
+
+  /*Her kommer styling til Grønkålssalat*/
+
+  #image {
+    background: url(images/grønkålssalat.jfif);
+    background-size: cover;
+    height: 200px;
+    margin-top: 80px;
+  }
+  
+  .opskrift1 h2, h3, h4, p{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .opskrift1 h2 {
+    font-size: 40px;
+  }
+
+  .opskrift1 h3 {
+    font-size: 30px;
+  }
+
+  .opskrift1 p {
+    font-size: 20px;
+  }
+
+  .opskrift1 h4 {
+    font-size: 25px;
+  }
