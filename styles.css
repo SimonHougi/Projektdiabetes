@@ -3,7 +3,7 @@
 html {
     margin: 0;
     padding: 0;
-}
+}z
 
 body {
     margin: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 .sorter {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 p {
@@ -161,6 +161,11 @@ main .table-container .table-area table td, th {
     border-bottom: 1px solid #ffb5b5;
     text-align: left;
     padding: 5px;
+    max-width: 120px;
+}
+
+main .table-container .table-area table tr {
+    
 }
 
 main .table-container .table-area table tr:nth-child(even) {
@@ -233,6 +238,27 @@ main .sort-area .sort-list li i {
     display: none;
     float: right;
     padding-right: 10px;
+}
+
+main .opskrifter {
+
+}
+
+main .opskrifter .opskrift-img {
+    
+}
+
+main .opskrifter .opskrift-text-area {
+    
+}
+
+main .opskrifter .opskrift-text-area h2 {
+    
+}
+
+main .opskrifter .opskrift-text-area p {
+    padding: 10px 0;
+    font-size: 1rem;
 }
 
 .button {
