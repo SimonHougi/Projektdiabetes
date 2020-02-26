@@ -161,6 +161,11 @@ main .table-container .table-area table td, th {
     border-bottom: 1px solid #ffb5b5;
     text-align: left;
     padding: 5px;
+    max-width: 120px;
+}
+
+main .table-container .table-area table tr {
+    
 }
 
 main .table-container .table-area table tr:nth-child(even) {
