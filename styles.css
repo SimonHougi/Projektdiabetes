@@ -144,7 +144,6 @@ main .table-container .table-head h2 {
     padding: 0 15px 15px 15px;
 }
 
-main .table-container .table-area {}
 
 main .table-container .table-area table tbody {
     display: block;
@@ -164,7 +163,6 @@ main .table-container .table-area table td, th {
     max-width: 120px;
 }
 
-main .table-container .table-area table tr {}
 
 main .table-container .table-area table tr:nth-child(even) {
     background-color: #fffbfb;
@@ -202,9 +200,7 @@ main .info-container .info-section .info-list {
     padding: 0;
 }
 
-main {}
 
-main .sort-area {}
 
 main .sort-area h2 {
     margin: 15px 0 15px 10px;
@@ -237,10 +233,6 @@ main .sort-area .sort-list li i {
     float: right;
     padding-right: 10px;
 }
-
-main .opskrifter {}
-
-main .opskrifter .opskrift-img {}
 
 main .opskrifter .opskrift-text-area {
     display: block;
