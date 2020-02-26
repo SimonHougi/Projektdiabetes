@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 html {
     margin: 0;
     padding: 0;
@@ -165,9 +164,7 @@ main .table-container .table-area table td, th {
     max-width: 120px;
 }
 
-main .table-container .table-area table tr {
-    
-}
+main .table-container .table-area table tr {}
 
 main .table-container .table-area table tr:nth-child(even) {
     background-color: #fffbfb;
@@ -241,13 +238,9 @@ main .sort-area .sort-list li i {
     padding-right: 10px;
 }
 
-main .opskrifter {
+main .opskrifter {}
 
-}
-
-main .opskrifter .opskrift-img {
-    
-}
+main .opskrifter .opskrift-img {}
 
 main .opskrifter .opskrift-text-area {
     display: block;
@@ -258,7 +251,6 @@ main .opskrifter .opskrift-text-area h2 {
     font-size: 1.5rem;
     margin-bottom: 40px;
     display: block;
-    
 }
 
 main .opskrifter .opskrift-text-area p {
